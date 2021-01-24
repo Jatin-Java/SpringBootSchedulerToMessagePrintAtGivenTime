@@ -1,2 +1,2 @@
-# SpringBootSchedulerToMessagePrintAtGivenTime
+# SpringBootSchedulerToPrintMessageAtGivenTime
 This is a Spring Boot Task Scheduler which is a web service and accept a message content and delivery time.The web service will return 202 status code (accepted) if the message was successfully scheduled.The web service will print the message content on the console at the delivery time specified. The system will recover and messages will not be lost in case of restart.
